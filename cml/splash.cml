@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="false">
+
+<!-- header -->
+	
+<!-- The Video pladys video files. -->
+<Video src="splashimage.mp4" autoplay="true" />
+
+</cml>
