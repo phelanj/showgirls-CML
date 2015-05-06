@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="true">
+
+<TouchContainer>
+	<Image id="slideshow" x="600" y="50" scale=".2" src="images/clockwork.png" />
+	<GestureList>
+			<Gesture ref="n-drag" gestureOn="true"/>
+			<Gesture ref="n-scale" gestureOn="true"/>
+			<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+</TouchContainer>
+<TouchContainer>
+	<Image id="slideshow1" x="600" y="50" scale=".2" src="images/clockwork1.png" />
+	<GestureList>
+			<Gesture ref="n-drag" gestureOn="true"/>
+			<Gesture ref="n-scale" gestureOn="true"/>
+			<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+</TouchContainer>
+
+</cml>
