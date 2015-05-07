@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="true">
+
+<TouchContainer>
+	<Image id="slideshow1" x="600" y="50" scale=".2" src="image/15.jpg" />
+	<GestureList>
+			<Gesture ref="n-drag" gestureOn="true"/>
+			<Gesture ref="n-scale" gestureOn="true"/>
+			<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+</TouchContainer>
+<TouchContainer>
+	<Image id="slideshow2" x="600" y="50" scale=".2" src="image/16.jpg" />
+	<GestureList>
+			<Gesture ref="n-drag" gestureOn="true"/>
+			<Gesture ref="n-scale" gestureOn="true"/>
+			<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+</TouchContainer>
+
+</cml>
