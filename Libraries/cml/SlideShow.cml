@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="false">
+
+<!-- header -->
+
+
+<Slideshow rate="10000" fadeDuration="1000" loop="false" autoplay="true">
+	<Video src="splashimage.mp4"/>	
+</Slideshow>
+
+</cml>
