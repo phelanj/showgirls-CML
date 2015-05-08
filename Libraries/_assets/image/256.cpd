@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cpd>
+  <type>Document</type>
+  <page>
+    <pagetitle>Program for Lido de Paris at the Stardust Hotel page 1</pagetitle>
+    <pagefile>253.jp2</pagefile>
+    <pageptr>249</pageptr>
+  </page>
+  <page>
+    <pagetitle>Program for Lido de Paris at the Stardust Hotel pages 2-3</pagetitle>
+    <pagefile>254.jp2</pagefile>
+    <pageptr>250</pageptr>
+  </page>
+  <page>
+    <pagetitle>sho_000227s003 page 4</pagetitle>
+    <pagefile>255.jp2</pagefile>
+    <pageptr>251</pageptr>
+  </page>
+</cpd>
