@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="false">
+
+<LibraryKit>
+	<Library type="swf" src="library/assets/openexhibits_assets.swf" />	
+</LibraryKit>
+
+
+<Slideshow rate="10000" fadeDuration="1000" loop="false" autoplay="true">
+	<Video src="splashimage.mp4"/>	
+</Slideshow>
+
+
+	
+<CollectionViewer animateIn="true" amountToShow="3" mouseChildren="true" autoShuffle="true">
+
+	<Include src="ImageViewer.cml" />
+
+	
+</CollectionViewer>	
+
+</cml>

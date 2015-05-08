@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="false">
+
+<!-- header -->
+	
+<!-- The Video pladys video files. -->
+<Video src="splashimage.mp4" autoplay="true" />
+
+	<Button dispatch="down:toggle-text" hit="hit-area" initial="up-img" down="down-img" over="down-img" up="up-img" out="up-img">
+			<!-- children can be any CML display object -->
+			<Graphic id="hit-area" color="0xFF0000" shape="rectangle" width="300" height="200" alpha="0" />	
+	</Button>
+
+</cml>

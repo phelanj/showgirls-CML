@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml rootDirectory="../_assets/" css="styles.css" tuio="false" simulator="true">
+<ImageViewer id="exhibit1" x="500" y="120"> 
+	<include src="TouchImage.cml" />
+</ImageViewer>	
+
+
+
+</cml>
