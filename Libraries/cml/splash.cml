@@ -5,7 +5,7 @@
 <!-- header -->
 	
 <!-- The Video pladys video files. -->
-<Video src="splashimage.mp4" autoplay="true" />
+<Video src="splashimage.mp4" autoplay="true" loop="true"/>
 
 	<Button dispatch="down:toggle-text" hit="hit-area" initial="up-img" down="down-img" over="down-img" up="up-img" out="up-img">
 			<!-- children can be any CML display object -->

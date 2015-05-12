@@ -6,12 +6,9 @@
 	<Library type="swf" src="library/assets/openexhibits_assets.swf" />	
 </LibraryKit>
 
-
-<Slideshow rate="10000" fadeDuration="1000" loop="false" autoplay="true">
-	<Video src="splashimage.mp4"/>	
-</Slideshow>
-
-
+<BackgroundKit>
+<ImageElement class="img_bg" src="Touchscreen-background-2.png" />
+</BackgroundKit>
 	
 <CollectionViewer animateIn="true" amountToShow="3" mouseChildren="true" autoShuffle="true">
 
