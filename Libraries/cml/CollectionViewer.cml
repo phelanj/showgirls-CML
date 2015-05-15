@@ -10,10 +10,10 @@
 <ImageElement class="img_bg" src="Touchscreen-background-2.png" />
 </BackgroundKit>
 	
-<CollectionViewer animateIn="true" amountToShow="3" mouseChildren="true" autoShuffle="true">
+<CollectionViewer animateIn="true" amountToShow="5" mouseChildren="true" autoShuffle="true">
 
 	<Include src="ImageViewer.cml" />
-
+	<!-- <Include src="exhibit2.cml" /> -->
 	
 </CollectionViewer>	
 

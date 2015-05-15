@@ -327,6 +327,7 @@
 </ImageViewer>	
 <ImageViewer id="exhibit1" x="500" y="120"> <!-- 21 -->
 
+
 	<TouchContainer id="tc_21" class="image_container" visible="true" targetParent="true" mouseChildren="false">
 		<Image id="21" class="image_element" src="image/21.jpg" scale=".15"/>
 	</TouchContainer>		
@@ -378,4 +379,1066 @@
 	</GestureList>
 	
 </ImageViewer>	
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 22 -->
+
+	<TouchContainer id="tc_22" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="22" class="image_element" src="image/22.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawings, music, food, and drink, circa  1945-55" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Series of sketches of female figures in various costumes representing musical instruments and various forms of food and drink. Includes color and fabric notations."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 23 -->
+
+	<TouchContainer id="tc_23" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="23" class="image_element" src="image/23.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Set design drawing, eight productions for the Jean Devlyn Dancers, circa  1945-55" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Eight various pencil sketches of set designs with notations."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 24 -->
+
+	<TouchContainer id="tc_24" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="24" class="image_element" src="image/24.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, woman in long skirt with hat and gloves, circa  1945-55" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Pencil sketch of woman in halter-style top and dual-layered long skirt with broad-brimmed hat and long gloves."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 27 -->
+
+	<TouchContainer id="tc_27" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="27" class="image_element" src="image/27.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, harem costume sketch, circa  1945-55" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Color sketch of woman in jeweled costume with long, flared skirt and multi-colored horizontal stripes at bottom."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 28 -->
+
+	<TouchContainer id="tc_28" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="28" class="image_element" src="image/28.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, pink gown with brown cape, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Long pink sheath-type dress with side-slit skirt, pink feathered headpiece and necklace, long brown gloves and brown cape with pink trim at bottom."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 29 -->
+
+	<TouchContainer id="tc_29" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="29" class="image_element" src="image/29.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, brown dress with pink jewels, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Long brown sheath-type dress and gloves with pink feathers and jewels."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 30 -->
+
+	<TouchContainer id="tc_30" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="30" class="image_element" src="image/30.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, black gown with light blue train, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Black sheath-type dress with light blue ruffled train, long black gloves, black and light blue feathered headpiece."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 31 -->
+
+	<TouchContainer id="tc_31" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="31" class="image_element" src="image/31.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, brown and white spirals dress, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Dress with white halter top, brown cinched waist, and flared skirt of brown and white spirals; long pink gloves and pink floral headpiece."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 32 -->
+
+	<TouchContainer id="tc_32" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="32" class="image_element" src="image/32.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, yellow and green dress with white lace, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Yellow dress with green trim, accordion-pleated flared skirt covered with layer of white lace, white lace-trimmed short sleeves, yellow hair ribbons."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 33 -->
+
+	<TouchContainer id="tc_33" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="33" class="image_element" src="image/33.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, black lace bodice with pink drape, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Black lace leotard with pink drape over one arm, wrapped around the waist and trailing to floor; also shows miniature of same costume with colors reversed"/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 34 -->
+
+	<TouchContainer id="tc_34" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="34" class="image_element" src="image/34.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, various costume miniatures, circa 1950s" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Various small figures of Salvation Army, Parisian, Indian, cowboy and cowgirl costumes."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 35 -->
+
+	<TouchContainer id="tc_35" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="35" class="image_element" src="image/35.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, jeweled headdress and cuffs with yellow feathers, Las Vegas, 1981" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Showgirl in jeweled bikini with jeweled headdress with yellow feathers, jeweled cuffs with yellow feathers."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 36 -->
+
+	<TouchContainer id="tc_36" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="36" class="image_element" src="image/36.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, yellow and black feathered showgirl costume, Las Vegas, 1981" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Showgirl in jewelled bikini and headdress with yellow and black feathers."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 37 -->
+
+	<TouchContainer id="tc_37" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="37" class="image_element" src="image/37.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, topless gold digger showgirl #4, Las Vegas, June 5, 1980" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Showgirl wearing a transparent long dress with brown fur stole, both decorated with yellow and gold jewels resembling coins. A gold and yellow jeweled headdress is topped with brown fur and feathers."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 38 -->
+
+	<TouchContainer id="tc_38" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="38" class="image_element" src="image/38.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, gold digger showgirl costume, Las Vegas, June 5, 1980" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Showgirl wearing a costume made of yellow and gold faux coins, with brown fur muff and gold feathered headpiece."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 39 -->
+
+	<TouchContainer id="tc_39" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="39" class="image_element" src="image/39.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, blue ballet costume for male dancer, Las Vegas, 1981" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Male dancer in blue ballet style costume with sheer ballooned sleeves; decorated with fuchsia trim; matching boots."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 40 -->
+
+	<TouchContainer id="tc_40" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="40" class="image_element" src="image/40.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, teal, pink and black showgirl costume, Las Vegas, June 5, 1980" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Jeweled teal, pink, and black vertical striped showgirl costume with split skirt, matching feather headdress and cuffs."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 41 -->
+
+	<TouchContainer id="tc_41" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="41" class="image_element" src="image/41.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, black, teal and fuchsia feathered showgirl costume, Las Vegas, June 5, 1980" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Jeweled sheath-style showgirl costume with split skirt, primarily black with teal and fuchsia bodice and collar trimmed with black feathers; matching hat and feathered wrap."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 42 -->
+
+	<TouchContainer id="tc_42" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="42" class="image_element" src="image/42.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, sheer blue showgirl costume with fuchsia jewels, Las Vegas, 1981" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Sheer blue showgirl costume decorated with fuchsia jewels, jeweled bra, matching headdress and cuffs."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+<ImageViewer id="exhibit1" x="500" y="120"> <!-- 43 -->
+
+	<TouchContainer id="tc_43" class="image_container" visible="true" targetParent="true" mouseChildren="false">
+		<Image id="43" class="image_element" src="image/43.jpg" scale=".15"/>
+	</TouchContainer>		
+	
+	<!-- Info panel container (back). -->
+	<TouchContainer id="image_info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+		<Graphic color="0x6699FF" alpha="0.6" lineStroke="0" class="info_bg" shape="rectangle"/>		
+		<Text id="title" class="title" border="false"  wordWrap="true" selectable="false" text="Costume design drawing, black tails and top hat with scarlet-lined cape, Las Vegas, 1981" paddingTop="50" />	
+		<Text id="description" paddingLeft="50" paddingRight="50" paddingTop="50" wordWrap="true" color="0xFFFFFF" class="info_description" selectable="false" text="Male performer in black tails and top hat with white vest and bow tie and black cape lined in jeweled scarlet."/>				
+	</TouchContainer>
+	
+	<!-- Here is where the menu is structured.-->
+	<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="5" paddingRight="20" autoHide="true" visible="false">
+	
+		<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+			<Container id="info-up">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>
+			<Container id="info-down">
+				<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="15" y="8" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Info" />
+			</Container>	
+			<Container id="info-hit">
+				<Graphic id="info-hit-bg" shape="circle" radius="20" color="0x666666" alpha="0" />
+			</Container>
+		</Button>
+		
+		<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+			<Container id="close-up" class="up" >
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x282E33" />	
+				<SWF alpha="1" x="11" y="11" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Close"/>
+			</Container>
+			<Container id="close-down" class="down">
+				<Graphic alpha="1" shape="circle" radius="20" lineStroke="1.5" color="0x495E67" />	
+				<SWF alpha="1" x="11" y="11" color="0xCCCCCC" scale="1.6" classRef="org.openexhibits.assets.Close" />
+			</Container>	
+			<Container id="close-hit" class="hit">
+				<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+			</Container>
+		</Button>
+		
+	</Menu>
+	
+	<GestureList>
+		<Gesture ref="n-drag" gestureOn="true"/>
+		<Gesture ref="n-scale" gestureOn="true"/>
+		<Gesture ref="n-rotate" gestureOn="true"/>
+	</GestureList>
+	
+</ImageViewer>
+
+
 </cml>
